@@ -207,6 +207,8 @@ javax.servlet.Filter
 | /api/** | A > B > D
 | /auth/** | A > C > D
 | /admin/** | A > C > D > E
+| /webhook/** | A > C > D
+| /user/** | A > C > D
 | /res/** | A
 | / | A > C > D
 
