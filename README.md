@@ -70,12 +70,24 @@ This documents is about how to create a OAuth 2.0 provider.
     │               │       │   ├── 401.jsp
     │               │       │   ├── 404.jsp
     │               │       │   ├── admin
+    │               │       │   │   ├── access-tokens.jsp
+    │               │       │   │   ├── accounts.jsp
+    │               │       │   │   ├── authorizations.jsp
+    │               │       │   │   ├── grant-codes.jsp
+    │               │       │   │   ├── index.jsp
+    │               │       │   │   ├── refresh-tokens.jsp
+    │               │       │   │   ├── roles.jsp
+    │               │       │   │   └── scopes.jsp
+    │               │       │   ├── agent
+    │               │       │   │   ├── authorization.jsp
+    │               │       │   │   ├── authorizations.jsp
     │               │       │   │   └── index.jsp
     │               │       │   ├── index.jsp
     │               │       │   ├── login.jsp
     │               │       │   ├── register.jsp
     │               │       │   └── user
-    │               │       │       ├── grant-privilege.jsp
+    │               │       │       ├── authorization.jsp
+    │               │       │       ├── authorizations.jsp
     │               │       │       └── index.jsp
     │               │       └── tiles
     │               └── web.xml
