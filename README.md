@@ -64,10 +64,14 @@ This documents is about how to create a OAuth 2.0 provider.
     │               │       ├── plain
     │               │       │   ├── 401.jsp
     │               │       │   ├── 404.jsp
-    │               │       │   ├── grant-privilege.jsp
+    │               │       │   ├── admin
+    │               │       │   │   └── index.jsp
     │               │       │   ├── index.jsp
     │               │       │   ├── login.jsp
-    │               │       │   └── register.jsp
+    │               │       │   ├── register.jsp
+    │               │       │   └── user
+    │               │       │       ├── grant-privilege.jsp
+    │               │       │       └── index.jsp
     │               │       └── tiles
     │               └── web.xml
     └── test
@@ -113,6 +117,7 @@ This documents is about how to create a OAuth 2.0 provider.
 │   ├── css
 │   ├── img
 │   └── js
+├── user
 ├── webhook
 │   └── example
 └── WEB-INF
