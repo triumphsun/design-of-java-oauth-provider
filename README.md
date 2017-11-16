@@ -12,8 +12,10 @@ This documents is about how to create a OAuth 2.0 provider.
 ```
 .
 ├── build.gradle
-├── doc
+├── docs
+├── LICENSE.txt
 ├── README.md
+├── scripts
 ├── settings.gradle
 └── src
     ├── main
@@ -23,8 +25,10 @@ This documents is about how to create a OAuth 2.0 provider.
     │   │           └── oauth
     │   │               └── provider
     │   │                   ├── bean
+    │   │                   │   ├── AccessToken.java
     │   │                   │   └── Account.java
     │   │                   ├── service
+    │   │                   │   ├── AccessTokenService.java
     │   │                   │   └── AccountService.java
     │   │                   └── web
     │   │                       ├── controller
@@ -32,14 +36,20 @@ This documents is about how to create a OAuth 2.0 provider.
     │   │                       │   ├── LoginController.java
     │   │                       │   ├── OAuthController.java
     │   │                       │   └── RegisterController.java
-    │   │                       └── filter
-    │   │                           ├── AssertAuthenticatedFilter.java
-    │   │                           ├── AuthBasicFilter.java
-    │   │                           ├── AuthBearerFilter.java
-    │   │                           └── EncodingUtf8Filter.java
+    │   │                       ├── filter
+    │   │                       │   ├── AssertAuthenticatedFilter.java
+    │   │                       │   ├── AuthBasicFilter.java
+    │   │                       │   ├── AuthBearerFilter.java
+    │   │                       │   └── EncodingUtf8Filter.java
+    │   │                       └── listener
+    │   │                           └── ApplicationListener.java
     │   └── resources
     │       ├── static
     │       └── webapp
+    │           ├── res
+    │           │   ├── css
+    │           │   ├── img
+    │           │   └── js
     │           └── WEB-INF
     │               ├── view
     │               └── web.xml
