@@ -10,7 +10,8 @@ This documents is about how to create a OAuth 2.0 provider.
 
 ## Project Structure
 ```
-ld.gradle
+.
+├── build.gradle
 ├── docs
 ├── LICENSE.txt
 ├── README.md
@@ -32,7 +33,9 @@ ld.gradle
     │   │                   │   ├── AccountService.java
     │   │                   │   └── impl
     │   │                   │       ├── DummyAccessTokenService.java
-    │   │                   │       └── DummyAccountService.java
+    │   │                   │       ├── DummyAccountService.java
+    │   │                   │       ├── MySqlAccountService.java
+    │   │                   │       └── RedisAccessTokenService.java
     │   │                   ├── servlet
     │   │                   │   ├── controller
     │   │                   │   │   ├── AccountController.java
@@ -80,7 +83,9 @@ ld.gradle
         │                   ├── service
         │                   │   └── impl
         │                   │       ├── TestDummyAccessTokenService.java
-        │                   │       └── TestDummyAccountService.java
+        │                   │       ├── TestDummyAccountService.java
+        │                   │       ├── TestMySqlAccountService.java
+        │                   │       └── TestRedisAccessTokenService.javva
         │                   ├── servlet
         │                   │   ├── controller
         │                   │   ├── filter
