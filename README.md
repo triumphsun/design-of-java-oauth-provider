@@ -27,7 +27,12 @@ This documents is about how to create a OAuth 2.0 provider.
     │   │               └── provider
     │   │                   ├── bean
     │   │                   │   ├── AccessToken.java
-    │   │                   │   └── Account.java
+    │   │                   │   ├── Account.java
+    │   │                   │   ├── Authorization.java
+    │   │                   │   ├── GrantCode.java
+    │   │                   │   ├── RefreshToken.java
+    │   │                   │   ├── Role.java
+    │   │                   │   └── Scope.java
     │   │                   ├── service
     │   │                   │   ├── AccessTokenService.java
     │   │                   │   ├── AccountService.java
@@ -83,7 +88,12 @@ This documents is about how to create a OAuth 2.0 provider.
         │               └── provider
         │                   ├── bean
         │                   │   ├── TestAccessToken.java
-        │                   │   └── TestAccount.java
+        │                   │   ├── TestAccount.java
+        │                   │   ├── TestAuthorization.java
+        │                   │   ├── TestGrantCode.java
+        │                   │   ├── TestRefreshToken.java
+        │                   │   ├── TestRole.java
+        │                   │   └── TestScope.java
         │                   ├── service
         │                   │   └── impl
         │                   │       ├── TestDummyAccessTokenService.java
@@ -365,12 +375,12 @@ scope | | Authorized Scope
 <table>
 <tbody>
 <tr>
-<td>&nbsp;URL</td>
-<td>Controller</td>
-<td>Get</td>
-<td>Post</td>
-<td>Put</td>
-<td>Delete</td>
+<th>&nbsp;URL</th>
+<th>Controller</th>
+<th>Get</th>
+<th>Post</th>
+<th>Put</th>
+<th>Delete</th>
 </tr>
 <tr>
 <td>/register</td>
