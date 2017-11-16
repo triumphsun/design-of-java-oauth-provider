@@ -10,8 +10,7 @@ This documents is about how to create a OAuth 2.0 provider.
 
 ## Project Structure
 ```
-.
-├── build.gradle
+ld.gradle
 ├── docs
 ├── LICENSE.txt
 ├── README.md
@@ -30,7 +29,10 @@ This documents is about how to create a OAuth 2.0 provider.
     │   │                   │   └── Account.java
     │   │                   ├── service
     │   │                   │   ├── AccessTokenService.java
-    │   │                   │   └── AccountService.java
+    │   │                   │   ├── AccountService.java
+    │   │                   │   └── impl
+    │   │                   │       ├── DummyAccessTokenService.java
+    │   │                   │       └── DummyAccountService.java
     │   │                   ├── servlet
     │   │                   │   ├── controller
     │   │                   │   │   ├── AccountController.java
@@ -76,8 +78,9 @@ This documents is about how to create a OAuth 2.0 provider.
         │                   │   ├── TestAccessToken.java
         │                   │   └── TestAccount.java
         │                   ├── service
-        │                   │   ├── TestAccessTokenService.java
-        │                   │   └── TestAccountService.java
+        │                   │   └── impl
+        │                   │       ├── TestDummyAccessTokenService.java
+        │                   │       └── TestDummyAccountService.java
         │                   ├── servlet
         │                   │   ├── controller
         │                   │   ├── filter
@@ -85,7 +88,6 @@ This documents is about how to create a OAuth 2.0 provider.
         │                   └── spring
         │                       └── interceptor
         └── resources
-
 ```
 
 ## URLs Design
