@@ -10,6 +10,7 @@ This documents is about how to create a OAuth 2.0 provider.
 
 ## Project Structure
 ```
+.
 ├── build.gradle
 ├── doc
 ├── README.md
@@ -18,6 +19,21 @@ This documents is about how to create a OAuth 2.0 provider.
     ├── main
     │   ├── java
     │   │   └── com
+    │   │       └── suntri
+    │   │           └── oauth
+    │   │               ├── account
+    │   │               │   ├── Account.java
+    │   │               │   └── AccountService.java
+    │   │               ├── controller
+    │   │               │   ├── AccountController.java
+    │   │               │   ├── LoginController.java
+    │   │               │   ├── OAuthController.java
+    │   │               │   └── RegisterController.java
+    │   │               └── filter
+    │   │                   ├── AssertAuthenticatedFilter.java
+    │   │                   ├── AuthBasicFilter.java
+    │   │                   ├── AuthBearerFilter.java
+    │   │                   └── EncodingUtf8Filter.java
     │   └── resources
     │       ├── static
     │       └── webapp
@@ -198,7 +214,7 @@ csrf=abcde
 ##### Response
 ```
 HTTP/1.1 200 OK
-Application-Type: test/html
+Application-Type: text/html
 
 <!DOCTYPE html>
 <html>
@@ -240,7 +256,7 @@ Header
 Body
 ```javascript
 {
-	"iss": "http://foo.bar/",
+    "iss": "http://foo.bar/",
     "exp": 1300819380,
     "scope": ""
 }
