@@ -36,6 +36,9 @@ This documents is about how to create a OAuth 2.0 provider.
 .
 ├── api
 │   └── accounts         --> AccountController
+│   ├── access-token
+│   ├── grant-code
+│   └── refresh-token
 ├── oauth                --> OAuthController
 │   ├── access-token
 │   ├── grant-code
