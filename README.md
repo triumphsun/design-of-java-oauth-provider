@@ -23,6 +23,7 @@ This documents is about how to create a OAuth 2.0 provider.
     │   │   └── com
     │   │       └── suntri
     │   │           └── oauth
+    │   │               ├── common
     │   │               └── provider
     │   │                   ├── bean
     │   │                   │   ├── AccessToken.java
@@ -67,6 +68,7 @@ This documents is about how to create a OAuth 2.0 provider.
         │   └── com
         │       └── suntri
         │           └── oauth
+        │               ├── common
         │               └── provider
         │                   ├── bean
         │                   ├── service
