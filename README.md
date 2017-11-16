@@ -228,7 +228,9 @@ javax.servlet.Filter
 
 | URL | GET | POST | PUT | DELETE |
 |--|--|--|--|--|
-| /auth/ | | 
+| /auth/grant-code | | Request
+| /auth/access-token | | Request
+| /auth/refresh-token | | Request
 
 ```
 POST /auth/ HTTP/1.1
@@ -287,6 +289,16 @@ Application-Type: text/html
 | URL | GET | POST | PUT | DELETE |
 |--|--|--|--|--|
 | /register | Get Page| Register
+
+### AdminController
+ | URL | GET | POST | PUT | DELETE |
+288 |--|--|--|--|--|
+289 | /admin/ | Get Page |
+
+### UserController
+ | URL | GET | POST | PUT | DELETE |
+288 |--|--|--|--|--|
+289 | /user | Get Page|
 
 ##### Request
 ```
