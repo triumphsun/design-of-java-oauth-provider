@@ -291,14 +291,14 @@ Application-Type: text/html
 | /register | Get Page| Register
 
 ### AdminController
- | URL | GET | POST | PUT | DELETE |
-288 |--|--|--|--|--|
-289 | /admin/ | Get Page |
+| URL | GET | POST | PUT | DELETE |
+|--|--|--|--|--|
+| /admin/ | Get Page |
 
 ### UserController
- | URL | GET | POST | PUT | DELETE |
-288 |--|--|--|--|--|
-289 | /user | Get Page|
+| URL | GET | POST | PUT | DELETE |
+|--|--|--|--|--|
+| /user | Get Page|
 
 ##### Request
 ```
