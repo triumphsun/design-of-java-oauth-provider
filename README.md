@@ -31,19 +31,21 @@ This documents is about how to create a OAuth 2.0 provider.
     │   │                   ├── service
     │   │                   │   ├── AccessTokenService.java
     │   │                   │   └── AccountService.java
-    │   │                   └── web
-    │   │                       ├── controller
-    │   │                       │   ├── AccountController.java
-    │   │                       │   ├── LoginController.java
-    │   │                       │   ├── OAuthController.java
-    │   │                       │   └── RegisterController.java
-    │   │                       ├── filter
-    │   │                       │   ├── AssertAuthenticatedFilter.java
-    │   │                       │   ├── AuthBasicFilter.java
-    │   │                       │   ├── AuthBearerFilter.java
-    │   │                       │   └── EncodingUtf8Filter.java
-    │   │                       └── listener
-    │   │                           └── ApplicationListener.java
+    │   │                   ├── servlet
+    │   │                   │   ├── controller
+    │   │                   │   │   ├── AccountController.java
+    │   │                   │   │   ├── LoginController.java
+    │   │                   │   │   ├── OAuthController.java
+    │   │                   │   │   └── RegisterController.java
+    │   │                   │   ├── filter
+    │   │                   │   │   ├── AssertAuthenticatedFilter.java
+    │   │                   │   │   ├── AuthBasicFilter.java
+    │   │                   │   │   ├── AuthBearerFilter.java
+    │   │                   │   │   └── EncodingUtf8Filter.java
+    │   │                   │   └── listener
+    │   │                   │       └── ApplicationListener.java
+    │   │                   └── spring
+    │   │                       └── interceptor
     │   └── resources
     │       ├── static
     │       └── webapp
@@ -71,9 +73,19 @@ This documents is about how to create a OAuth 2.0 provider.
         │               ├── common
         │               └── provider
         │                   ├── bean
+        │                   │   ├── TestAccessToken.java
+        │                   │   └── TestAccount.java
         │                   ├── service
-        │                   └── web
+        │                   │   ├── TestAccessTokenService.java
+        │                   │   └── TestAccountService.java
+        │                   ├── servlet
+        │                   │   ├── controller
+        │                   │   ├── filter
+        │                   │   └── listener
+        │                   └── spring
+        │                       └── interceptor
         └── resources
+
 ```
 
 ## URLs Design
@@ -278,7 +290,7 @@ Java Web Token (JWT) is made up with HEADER, BODY and SIGNATURE.
 Header
 ```javascript
 {
-	"typ": "JWT",
+    "typ": "JWT",
     "alg": "HS256"
 }
 ```
