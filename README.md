@@ -353,9 +353,6 @@ scope | | Authorized Scope
 <tr style="height: 23px;">
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">Controller</td>
 <td style="height: 23px;">Get</td>
 <td style="height: 23px;">Post</td>
@@ -365,9 +362,6 @@ scope | | Authorized Scope
 <tr style="height: 23px;">
 <td style="height: 23px;">/admin</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 <td style="height: 207px;" rowspan="9">AdminController</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -375,10 +369,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/access-token</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/admin/access-token</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -386,10 +377,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{token}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/admin/access-token/{token}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -397,10 +385,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/account</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/admin/accounts</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -408,10 +393,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{account}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/account/account/{account}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -419,10 +401,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/grant-code</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/admin/grant-code</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -430,10 +409,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{code}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/admin/grant-code/{code}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -441,10 +417,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/refresh-token</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/admin/refresh-token</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -452,10 +425,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{token}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/admin/refresh-token/{token}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -465,9 +435,6 @@ scope | | Authorized Scope
 <tr style="height: 23px;">
 <td style="height: 23px;">/api</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 <td style="height: 299px;" rowspan="13">ApiController</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -475,21 +442,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/access-token</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-</tr>
-<tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{token}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/api/access-token</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -497,10 +450,15 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
+<td style="height: 23px;">/api/access-token/{token}</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/accounts</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">/api/accounts</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">Create</td>
@@ -508,10 +466,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{account}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/api/accounts/{account}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">Retrieve</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -519,10 +474,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">Delete</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/oauth</td>
+<td style="height: 23px;">/api/accounts/{account/oauth</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">List All</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -530,21 +482,15 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
+<td style="height: 23px;">/api/accounts/{account/oauth/{authorization}</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{authorization}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">Authorize</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">Unauthorize</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/grant-code</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/api/grant-code</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">List All</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -552,10 +498,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{code}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/api/grant-code/{code}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -563,10 +506,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/refresh-token</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/api/refresh-token</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">List All</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -574,10 +514,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{token}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/api/refresh-token/{token}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -585,10 +522,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/roles</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/api/roles</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">Create</td>
@@ -596,10 +530,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{role}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/api/roles/{role}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">Retrieve</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -609,9 +540,6 @@ scope | | Authorized Scope
 <tr style="height: 23px;">
 <td style="height: 23px;">/user</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 <td style="height: 92px;" rowspan="4">UserController</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -619,12 +547,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">
-<p>/authorizations</p>
-</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/user/authorizations</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -632,10 +555,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/{authorization}</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/usr/authorizations/{authorization}</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -643,10 +563,7 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">/update</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">/user/update</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">HTML</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -661,26 +578,8 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-</tr>
-<tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -697,26 +596,8 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-</tr>
-<tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -733,26 +614,8 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 </tr>
 <tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-</tr>
-<tr style="height: 23px;">
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
-<td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -769,6 +632,12 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -781,6 +650,12 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
@@ -789,6 +664,12 @@ scope | | Authorized Scope
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
 <td style="height: 23px;">&nbsp;</td>
