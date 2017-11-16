@@ -52,6 +52,15 @@ This documents is about how to create a OAuth 2.0 provider.
     │           │   └── js
     │           └── WEB-INF
     │               ├── view
+    │               │   └── jsp
+    │               │       ├── plain
+    │               │       │   ├── 401.jsp
+    │               │       │   ├── 404.jsp
+    │               │       │   ├── grant-privilege.jsp
+    │               │       │   ├── index.jsp
+    │               │       │   ├── login.jsp
+    │               │       │   └── register.jsp
+    │               │       └── tiles
     │               └── web.xml
     └── test
         ├── java
