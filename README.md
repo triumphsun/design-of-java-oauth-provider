@@ -103,13 +103,13 @@ This documents is about how to create a OAuth 2.0 provider.
 
 ```
 .
-├── admin
-├── api
+├── admin                                --> AdminController
+├── api                                  --> ApiController
 │   ├── access-token
 │   ├── accounts
 │   ├── grant-code
 │   └── refresh-token
-├── oauth
+├── oauth                                --> OauthController
 │   ├── access-token
 │   ├── grant-code
 │   └── refresh-token
@@ -117,7 +117,7 @@ This documents is about how to create a OAuth 2.0 provider.
 │   ├── css
 │   ├── img
 │   └── js
-├── user
+├── user                                 --> UserController
 ├── webhook
 │   └── example
 └── WEB-INF
