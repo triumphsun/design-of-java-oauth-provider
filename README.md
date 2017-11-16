@@ -11,12 +11,25 @@ This documents is about how to create a OAuth 2.0 provider.
 ## Project Structure
 
 ```
-├── api
-├── auth
+.
+├── api -> ApiController
+├── oauth -> OAuthController
+├── res
+│   ├── css
+│   ├── img
+│   └── js
 ├── webhook
+│   └── example -> ExampleWebhookController
 └── WEB-INF
+    ├── classes
+    ├── lib
     ├── tags
-    └── view
+    ├── view
+    │   └── jsp
+    │       ├── plain
+    │       ├── tags
+    │       └── tiles
+    └── web.xml
 ```
 
 ## Attributes
