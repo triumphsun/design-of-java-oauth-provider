@@ -8,7 +8,15 @@ This documents is about how to create a OAuth 2.0 provider.
 
 ## Table of Content
 
+## Project Structure
 
+
+├── api
+├── auth
+├── webhook
+└── WEB-INF
+    ├── tags
+    └── view
 
 
 ## Attributes
@@ -40,14 +48,14 @@ javax.servlet.Filter
 
 ### B. AuthBearerFilter
 ```
-1. Test existence, signature, and expiration of header "Authorization: Bearer ${JWT}"
+1. Test existence, signature, and expiration of http header "Authorization: Bearer ${JWT}"
 	1.1. If Yes, extract ${JWT} to PAGE, and continue to next filter
 	1.2. if No, continue to next filter
 ```
 
 ### C. AuthBasicFilter
 ```
-1. Test existence of header "Authorization: Basic ${passcode}"
+1. Test existence of http header "Authorization: Basic ${passcode}"
 	1. If Yes, extract ${passcode} and apply login procedure
 		1. If login success, contiune to next filter
 		2. If login failed, discard this request, and RETURN HTTP 403 FORBIDDEN
@@ -184,7 +192,7 @@ Header
 Body
 ```javascript
 {
-	"iss": "http://",
+	"iss": "http://foo.bar/",
     "exp": 1300819380,
     "scope": ""
 }
