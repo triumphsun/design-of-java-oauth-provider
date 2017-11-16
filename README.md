@@ -21,19 +21,22 @@ This documents is about how to create a OAuth 2.0 provider.
     │   │   └── com
     │   │       └── suntri
     │   │           └── oauth
-    │   │               ├── account
-    │   │               │   ├── Account.java
-    │   │               │   └── AccountService.java
-    │   │               ├── controller
-    │   │               │   ├── AccountController.java
-    │   │               │   ├── LoginController.java
-    │   │               │   ├── OAuthController.java
-    │   │               │   └── RegisterController.java
-    │   │               └── filter
-    │   │                   ├── AssertAuthenticatedFilter.java
-    │   │                   ├── AuthBasicFilter.java
-    │   │                   ├── AuthBearerFilter.java
-    │   │                   └── EncodingUtf8Filter.java
+    │   │               └── provider
+    │   │                   ├── bean
+    │   │                   │   └── Account.java
+    │   │                   ├── service
+    │   │                   │   └── AccountService.java
+    │   │                   └── web
+    │   │                       ├── controller
+    │   │                       │   ├── AccountController.java
+    │   │                       │   ├── LoginController.java
+    │   │                       │   ├── OAuthController.java
+    │   │                       │   └── RegisterController.java
+    │   │                       └── filter
+    │   │                           ├── AssertAuthenticatedFilter.java
+    │   │                           ├── AuthBasicFilter.java
+    │   │                           ├── AuthBearerFilter.java
+    │   │                           └── EncodingUtf8Filter.java
     │   └── resources
     │       ├── static
     │       └── webapp
