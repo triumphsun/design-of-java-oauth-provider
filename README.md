@@ -100,16 +100,28 @@ This documents is about how to create a OAuth 2.0 provider.
 ```
 
 ## URLs Design
-
 ```
 .
-├── admin                                --> AdminController
-├── api                                  --> ApiController
-│   ├── access-token
+├── admin
+│   ├── access-tokens
 │   ├── accounts
-│   ├── grant-code
-│   └── refresh-token
-├── oauth                                --> OauthController
+│   ├── authorizations
+│   ├── grant-codes
+│   ├── refresh-tokens
+│   ├── roles
+│   └── scopes
+├── agent
+│   ├── authorizations
+│   └── update
+├── api
+│   ├── access-tokens
+│   ├── accounts
+│   ├── authorizations
+│   ├── grant-codes
+│   ├── refresh-tokens
+│   ├── roles
+│   └── scopes
+├── oauth
 │   ├── access-token
 │   ├── grant-code
 │   └── refresh-token
@@ -117,7 +129,9 @@ This documents is about how to create a OAuth 2.0 provider.
 │   ├── css
 │   ├── img
 │   └── js
-├── user                                 --> UserController
+├── user
+│   ├── authorizations
+│   └── update
 ├── webhook
 │   └── example
 └── WEB-INF
