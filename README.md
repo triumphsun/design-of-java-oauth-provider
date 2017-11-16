@@ -346,3 +346,456 @@ scope | | Authorized Scope
 |--|--|
 |Basic | 
 
+
+### Table
+<table>
+<tbody>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Controller</td>
+<td style="height: 23px;">Get</td>
+<td style="height: 23px;">Post</td>
+<td style="height: 23px;">Put</td>
+<td style="height: 23px;">Delete</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">admin</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 207px;" rowspan="9">AdminController</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">access-token</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{token}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">account</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{account}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">grant-code</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{code}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">refresh-token</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{token}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">api</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 299px;" rowspan="13">ApiController</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">access-token</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{token}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">accounts</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Create</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{account}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Retrieve</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Update</td>
+<td style="height: 23px;">Delete</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">oauth</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">List All</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{authorization}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Authorize</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Unauthorize</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">grant-code</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">List All</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{code}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">refresh-token</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">List All</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{token}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">roles</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Create</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{role}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Retrieve</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Update</td>
+<td style="height: 23px;">Delete</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">user</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 92px;" rowspan="4">UserController</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">
+<p>authorizations</p>
+</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">{authorization}</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">update</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">Get Page</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+<tr style="height: 23px;">
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+<td style="height: 23px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
