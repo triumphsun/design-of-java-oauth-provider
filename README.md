@@ -376,7 +376,7 @@ scope | | Authorized Scope
 </tr>
 <tr>
 <td>/api</td>
-<td style="height: 299px;" rowspan="13">ApiController</td>
+<td rowspan="13">ApiController</td>
 <td>-</td>
 <td>-</td>
 <td>&nbsp;-</td>
@@ -468,7 +468,7 @@ scope | | Authorized Scope
 </tr>
 <tr>
 <td>/admin</td>
-<td style="height: 207px;" rowspan="9">AdminController</td>
+<td rowspan="9">AdminController</td>
 <td>HTML</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -532,7 +532,7 @@ scope | | Authorized Scope
 </tr>
 <tr>
 <td>/user</td>
-<td style="height: 92px;" rowspan="4">UserController</td>
+<td rowspan="4">UserController</td>
 <td>HTML</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
