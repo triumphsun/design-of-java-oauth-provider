@@ -8,6 +8,27 @@ This documents is about how to create a OAuth 2.0 provider.
 
 ## Table of Content
 
+## Project Structure
+```
+├── README.md
+├── build.gradle
+├── settings.gradle
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com
+    │   └── resources
+    │       └── static
+    │           └── WEB-INF
+    │               └── view
+    │                   └── jsp
+    │                       └── tiles
+    └── test
+        ├── java
+        │   └── com
+        └── resources
+```
+
 ## URLs Design
 
 ```
