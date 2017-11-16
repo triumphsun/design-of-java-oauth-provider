@@ -8,18 +8,19 @@ This documents is about how to create a OAuth 2.0 provider.
 
 ## Table of Content
 
-## Project Structure
+## URLs Design
 
 ```
 .
-├── api -> ApiController
-├── oauth -> OAuthController
+├── api
+│   └── accounts    --> AccountController
+├── oauth           --> OAuthController
 ├── res
 │   ├── css
 │   ├── img
 │   └── js
 ├── webhook
-│   └── example -> ExampleWebhookController
+│   └── example     --> ExampleWebhookController
 └── WEB-INF
     ├── classes
     ├── lib
@@ -32,7 +33,7 @@ This documents is about how to create a OAuth 2.0 provider.
     └── web.xml
 ```
 
-## Attributes
+## Attributes Design
 ### Identity Attribute
 Identity Attribute after succesfull authentication and authorization
 
