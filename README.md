@@ -35,7 +35,7 @@ This documents is about how to create a OAuth 2.0 provider.
 ```
 .
 ├── api
-│   └── accounts         --> AccountController
+│   ├── accounts         --> AccountController
 │   ├── access-token
 │   ├── grant-code
 │   └── refresh-token
@@ -56,6 +56,8 @@ This documents is about how to create a OAuth 2.0 provider.
     ├── view
     │   └── jsp
     │       ├── plain
+    │       │   ├── 401.jsp
+    │       │   ├── 404.jsp
     │       │   ├── grant-privilege.jsp
     │       │   ├── index.jsp
     │       │   ├── login.jsp
