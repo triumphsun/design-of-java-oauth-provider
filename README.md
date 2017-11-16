@@ -10,14 +10,14 @@ This documents is about how to create a OAuth 2.0 provider.
 
 ## Project Structure
 
-
+```
 ├── api
 ├── auth
 ├── webhook
 └── WEB-INF
     ├── tags
     └── view
-
+```
 
 ## Attributes
 ### Identity Attribute
