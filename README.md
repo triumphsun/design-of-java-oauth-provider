@@ -65,6 +65,12 @@ This documents is about how to create a OAuth 2.0 provider.
     └── test
         ├── java
         │   └── com
+        │       └── suntri
+        │           └── oauth
+        │               └── provider
+        │                   ├── bean
+        │                   ├── service
+        │                   └── web
         └── resources
 ```
 
