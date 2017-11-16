@@ -35,14 +35,17 @@ This documents is about how to create a OAuth 2.0 provider.
 ```
 .
 ├── api
-│   └── accounts    --> AccountController
-├── oauth           --> OAuthController
+│   └── accounts         --> AccountController
+├── oauth                --> OAuthController
+│   ├── access-token
+│   ├── grant-code
+│   └── refresh-token
 ├── res
 │   ├── css
 │   ├── img
 │   └── js
 ├── webhook
-│   └── example     --> ExampleWebhookController
+│   └── example          --> ExampleWebhookController
 └── WEB-INF
     ├── classes
     ├── lib
