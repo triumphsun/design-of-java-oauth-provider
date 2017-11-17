@@ -88,6 +88,7 @@ This documents is about how to create a OAuth 2.0 provider.
     │               │       │   └── user
     │               │       │       ├── authorization.jsp
     │               │       │       ├── authorizations.jsp
+    │               │       │       ├── confirmation.jsp
     │               │       │       └── index.jsp
     │               │       └── tiles
     │               └── web.xml
@@ -121,6 +122,40 @@ This documents is about how to create a OAuth 2.0 provider.
         └── resources
 ```
 
+## Product Structure
+```
+.
+├── res
+│   ├── css
+│   ├── img
+│   └── js
+└── WEB-INF
+    ├── classes
+    │   └── com
+    │       └── suntri
+    │           └── oauth
+    ├── lib
+    ├── tags
+    ├── view
+    │   └── jsp
+    │       ├── plain
+    │       │   ├── 401.jsp
+    │       │   ├── 404.jsp
+    │       │   ├── admin
+    │       │   │   └── index.jsp
+    │       │   ├── agent
+    │       │   │   └── index.jsp
+    │       │   ├── index.jsp
+    │       │   ├── login.jsp
+    │       │   ├── register.jsp
+    │       │   └── user
+    │       │       ├── confirmation.jsp
+    │       │       └── index.jsp
+    │       ├── tags
+    │       └── tiles
+    └── web.xml
+```
+
 ## URLs Design
 ```
 .
@@ -147,34 +182,11 @@ This documents is about how to create a OAuth 2.0 provider.
 │   ├── access-token
 │   ├── grant-code
 │   └── refresh-token
-├── res
-│   ├── css
-│   ├── img
-│   └── js
 ├── user
 │   ├── authorizations
 │   └── update
-├── webhook
-│   └── example
-└── WEB-INF
-    ├── classes
-    │   └── com
-    │       └── suntri
-    │           └── oauth
-    ├── lib
-    ├── tags
-    ├── view
-    │   └── jsp
-    │       ├── plain
-    │       │   ├── 401.jsp
-    │       │   ├── 404.jsp
-    │       │   ├── grant-privilege.jsp
-    │       │   ├── index.jsp
-    │       │   ├── login.jsp
-    │       │   └── register.jsp
-    │       ├── tags
-    │       └── tiles
-    └── web.xml
+└── webhook
+    └── example
 ```
 
 ## Attributes Design
