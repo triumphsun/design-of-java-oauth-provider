@@ -396,51 +396,386 @@ scope | | Authorized Scope
 
 
 ### Table
-<table class="tableizer-table">
-<thead><tr class="tableizer-firstrow"><th> URL</th><th>Filters</th><th>Controller</th><th>Get</th><th>Post</th><th>Put</th><th>Delete</th></tr></thead><tbody>
- <tr><td>/register</td><td>&nbsp;</td><td>RegisterController</td><td>HTML</td><td>Register</td><td> -</td><td> -</td></tr>
- <tr><td>/login</td><td>&nbsp;</td><td>LoginController</td><td>HTML</td><td>Login</td><td> -</td><td> -</td></tr>
- <tr><td>/api</td><td>&nbsp;</td><td>ApiController</td><td>-</td><td>-</td><td> -</td><td> -</td></tr>
- <tr><td>/api/access-token</td><td>&nbsp;</td><td>&nbsp;</td><td>List</td><td>Create</td><td> -</td><td> -</td></tr>
- <tr><td>/api/access-token/{token}</td><td>&nbsp;</td><td>&nbsp;</td><td>Get</td><td> -</td><td> -</td><td>Delete</td></tr>
- <tr><td>/api/accounts</td><td>&nbsp;</td><td>&nbsp;</td><td> -</td><td>Create</td><td> -</td><td> -</td></tr>
- <tr><td>/api/accounts/{account}</td><td>&nbsp;</td><td>&nbsp;</td><td>Get</td><td> -</td><td>Update</td><td>Delete</td></tr>
- <tr><td>/api/accounts/{account/oauth</td><td>&nbsp;</td><td>&nbsp;</td><td>List</td><td> -</td><td> -</td><td> -</td></tr>
- <tr><td>/api/accounts/{account/oauth/{authorization}</td><td>&nbsp;</td><td>&nbsp;</td><td> -</td><td>Authorize</td><td> -</td><td>Unauthorize</td></tr>
- <tr><td>/api/authorizations</td><td>&nbsp;</td><td>&nbsp;</td><td>List</td><td>Create</td><td>-</td><td>-</td></tr>
- <tr><td>/api/authorizations/{authorization}</td><td>&nbsp;</td><td>&nbsp;</td><td>Get</td><td>-</td><td>-</td><td>Delete</td></tr>
- <tr><td>/api/grant-code</td><td>&nbsp;</td><td>&nbsp;</td><td>List</td><td>Create</td><td> -</td><td> -</td></tr>
- <tr><td>/api/grant-code/{code}</td><td>&nbsp;</td><td>&nbsp;</td><td>Get</td><td> -</td><td> -</td><td>Delete</td></tr>
- <tr><td>/api/refresh-token</td><td>&nbsp;</td><td>&nbsp;</td><td>List</td><td>Create</td><td> -</td><td> -</td></tr>
- <tr><td>/api/refresh-token/{token}</td><td>&nbsp;</td><td>&nbsp;</td><td>Get</td><td>&nbsp;</td><td> -</td><td>Delete</td></tr>
- <tr><td>/api/roles</td><td>&nbsp;</td><td>&nbsp;</td><td>List</td><td>Create</td><td> -</td><td> -</td></tr>
- <tr><td>/api/roles/{role}</td><td>&nbsp;</td><td>&nbsp;</td><td>Get</td><td> -</td><td>Update</td><td>Delete</td></tr>
- <tr><td>/api/scopes</td><td>&nbsp;</td><td>&nbsp;</td><td>List</td><td>Create</td><td>-</td><td>-</td></tr>
- <tr><td>/api/scopes/{scope}</td><td>&nbsp;</td><td>&nbsp;</td><td>Get</td><td>-</td><td>-</td><td>Delete</td></tr>
- <tr><td>/oauth/grant-code</td><td>&nbsp;</td><td>OauthController</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/oauth/access-token</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/oauth/refresh-token</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/access-token</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/access-token/{token}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/accounts</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/accounts/{account}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/authorizations</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/authorizations/{authorization}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/grant-code</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/grant-code/{code}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/refresh-token</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/refresh-token/{token}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/roles</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/roles/{role}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/scopes</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/admin/scopes/{scope}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/user</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/user/authorizations</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/usr/authorizations/{authorization}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/user/update</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/agent</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/agent/authorizations</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/agent/authorizations/{authorization}</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
- <tr><td>/agent/update</td><td>&nbsp;</td><td>&nbsp;</td><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td></td></tr>
-</tbody></table>
+<table>
+<tr>
+<td>URL</td>
+<td>Filters</td>
+<td>Controller</td>
+<td>Get</td>
+<td>Post</td>
+<td>Put</td>
+<td>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td>/register</td>
+<td></td>
+<td>RegisterController</td>
+<td>HTML</td>
+<td>Register</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/login</td>
+<td></td>
+<td>LoginController</td>
+<td>HTML</td>
+<td>Login</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api</td>
+<td rowspan=17 ></td>
+<td rowspan=17 >ApiController</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/access-token</td>
+<td>List</td>
+<td>Create</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/access-token/{token}</td>
+<td>Get</td>
+<td>-</td>
+<td>-</td>
+<td>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/accounts</td>
+<td>-</td>
+<td>Create</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/accounts/{account}</td>
+<td>Get</td>
+<td>-</td>
+<td>Update</td>
+<td>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/accounts/{account/oauth</td>
+<td>List</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/accounts/{account/oauth/{authorization}</td>
+<td>-</td>
+<td>Authorize</td>
+<td>-</td>
+<td colspan=2 >Unauthorize</td>
+</tr>
+<tr>
+<td>/api/authorizations</td>
+<td>List</td>
+<td>Create</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/authorizations/{authorization}</td>
+<td>Get</td>
+<td>-</td>
+<td>-</td>
+<td>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/grant-code</td>
+<td>List</td>
+<td>Create</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/grant-code/{code}</td>
+<td>Get</td>
+<td>-</td>
+<td>-</td>
+<td>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/refresh-token</td>
+<td>List</td>
+<td>Create</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/refresh-token/{token}</td>
+<td>Get</td>
+<td></td>
+<td>-</td>
+<td>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/roles</td>
+<td>List</td>
+<td>Create</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/roles/{role}</td>
+<td>Get</td>
+<td>-</td>
+<td>Update</td>
+<td>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/scopes</td>
+<td>List</td>
+<td>Create</td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>/api/scopes/{scope}</td>
+<td>Get</td>
+<td>-</td>
+<td>-</td>
+<td>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td>/oauth/grant-code</td>
+<td rowspan=3 ></td>
+<td rowspan=3 >OauthController</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/oauth/access-token</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/oauth/refresh-token</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin</td>
+<td rowspan=15 ></td>
+<td rowspan=23 ></td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/access-token</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/access-token/{token}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/accounts</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/accounts/{account}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/authorizations</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/authorizations/{authorization}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/grant-code</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/grant-code/{code}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/refresh-token</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/refresh-token/{token}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/roles</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/roles/{role}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/scopes</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/admin/scopes/{scope}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/user</td>
+<td rowspan=4 ></td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/user/authorizations</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/usr/authorizations/{authorization}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/user/update</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/agent</td>
+<td rowspan=4 ></td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/agent/authorizations</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/agent/authorizations/{authorization}</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>/agent/update</td>
+<td>HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
