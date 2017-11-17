@@ -429,8 +429,8 @@ scope | | Authorized Scope
 </tr>
 <tr>
 <td>/api</td>
-<td rowspan=17 ></td>
-<td rowspan=17 >ApiController</td>
+<td rowspan=17></td>
+<td rowspan=17>ApiController</td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -482,7 +482,7 @@ scope | | Authorized Scope
 <td>-</td>
 <td>Authorize</td>
 <td>-</td>
-<td colspan=2 >Unauthorize</td>
+<td>Unauthorize</td>
 </tr>
 <tr>
 <td>/api/authorizations</td>
@@ -566,8 +566,8 @@ scope | | Authorized Scope
 </tr>
 <tr>
 <td>/oauth/grant-code</td>
-<td rowspan=3 ></td>
-<td rowspan=3 >OauthController</td>
+<td rowspan=3></td>
+<td rowspan=3>OauthController</td>
 <td></td>
 <td></td>
 <td></td>
@@ -592,8 +592,8 @@ scope | | Authorized Scope
 </tr>
 <tr>
 <td>/admin</td>
-<td rowspan=15 ></td>
-<td rowspan=23 ></td>
+<td rowspan=15></td>
+<td rowspan=23></td>
 <td>HTML</td>
 <td></td>
 <td></td>
@@ -714,7 +714,7 @@ scope | | Authorized Scope
 </tr>
 <tr>
 <td>/user</td>
-<td rowspan=4 ></td>
+<td rowspan=4></td>
 <td>HTML</td>
 <td></td>
 <td></td>
@@ -747,7 +747,7 @@ scope | | Authorized Scope
 </tr>
 <tr>
 <td>/agent</td>
-<td rowspan=4 ></td>
+<td rowspan=4></td>
 <td>HTML</td>
 <td></td>
 <td></td>
